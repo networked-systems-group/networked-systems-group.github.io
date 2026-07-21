@@ -133,6 +133,21 @@ name {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
+/* .emoji {
+    font-size: 0.9em;
+    line-height: 1;
+    vertical-align: middle;
+} */
+ .emoji {
+    display: inline-block;
+    width: 1.2em;
+    font-size: 0.8em;
+    line-height: 1;
+    text-align: center;
+    vertical-align: baseline;
+    transform: translateY(-0.15em);
+}
+
 span.highlight {
   background-color: #ffffd0;
 }
